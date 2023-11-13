@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 69px;
+    width: 100%;
+}
+
+main {
+    position: relative;
+    top: 60px;
+}
+
+footer {
+    height: 200px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.navigation-bar {
+    display: flex;
+    position: relative;
+    padding: 0 20px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-bar li {
+    display: inline-flex;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.site-hero {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.mission {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: space-around;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: block;
+}
+
+.img-container h4 {
+    margin-top: 0;
+}
+
+.img-container img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 15px;
+}
+
+.featured {
+    margin-bottom: 40px;
+}
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*zm0kui*_ga*ODI1MDM0NTg5My4xNjk1Nzc0NTY4*_ga_3LRZM6TM9L*MTY5OTYzODY3Ni4zMy4xLjE2OTk2NDI2NjguNjAuMC4w);
+    background-position: center 25%;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.addressess {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.address {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+    opacity: 1;
+    width: 300px;
+    margin: 0 40px;
+}
+
+#logo {
+    height: 50px;
+}
+
+#loc-title {
+    margin-bottom: 15px;
+}
+
+#copyright {
+    text-align: left;
+    margin: 0 auto;
+}
